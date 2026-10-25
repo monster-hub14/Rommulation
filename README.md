@@ -1,8 +1,10 @@
 # Rommulation
 
-![Rommulation CRT TV and controller](https://github.com/monster-hub14/Rommulation/releases/download/v1.1.1/rommulation-icon.png)
+<img src="https://github.com/monster-hub14/Rommulation/releases/download/v1.1.1/rommulation-icon.png" alt="Rommulation CRT TV and controller" width="192">
 
 A native Nintendo Switch client for your RomM library, with integrated retro gameplay and automatic downloads of compatible missing engines. RetroArch is not required.
+
+<a href="https://www.buymeacoffee.com/monsterreview"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me a Coffee" width="200"></a>
 
 ## Download
 
