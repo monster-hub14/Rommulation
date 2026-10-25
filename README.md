@@ -1,6 +1,6 @@
 # Rommulation
 
-<img src="https://github.com/monster-hub14/Rommulation/releases/download/v1.1.1/rommulation-icon.png" alt="Rommulation CRT TV and controller" width="192">
+<img src="https://github.com/monster-hub14/Rommulation/releases/download/v1.1.1/rommulation-icon.png?v=1.1.1" alt="Rommulation CRT TV and controller" width="192">
 
 A native Nintendo Switch client for your RomM library, with integrated retro gameplay and automatic downloads of compatible missing engines. RetroArch is not required.
 
