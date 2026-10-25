@@ -1,5 +1,7 @@
 # Rommulation
 
+**Author: Monster Review**
+
 <img src="https://github.com/monster-hub14/Rommulation/releases/download/v1.1.1/rommulation-icon.png?v=1.1.1" alt="Rommulation CRT TV and controller" width="192">
 
 A native Nintendo Switch client for your RomM library, with integrated retro gameplay and automatic downloads of compatible missing engines. RetroArch is not required.
@@ -8,7 +10,7 @@ A native Nintendo Switch client for your RomM library, with integrated retro gam
 
 ## Download
 
-[Download Rommulation 1.1.1](https://github.com/monster-hub14/Rommulation/releases/download/v1.1.1/Rommulation-1.1.1.zip) · [Releases](https://github.com/monster-hub14/Rommulation/releases)
+[Download Rommulation 1.1.2](https://github.com/monster-hub14/Rommulation/releases/download/v1.1.2/Rommulation-1.1.2.zip) · [Releases](https://github.com/monster-hub14/Rommulation/releases)
 
 Extract the complete ZIP to your SD root and merge/replace its files. Keep the existing app folder to preserve saved login, downloads and saves. Internal paths remain compatible with earlier Rom NX versions.
 
@@ -26,4 +28,4 @@ Previous SNES/PlayStation gameplay was confirmed on Switch. Native builds, execu
 
 ## Source and licenses
 
-[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.1.1/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
+[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.1.2/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
