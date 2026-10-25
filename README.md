@@ -14,6 +14,10 @@ Extract the complete ZIP to your SD root and merge/replace its files. Keep the e
 
 Connect to your own RomM server using device pairing or username/password fallback. Saved sign-in reconnects automatically. Browse consoles, press X to download, then A to play. Right stick click opens the gameplay menu.
 
+## Verified working setup
+
+User-tested and verified working on **Atmosphere 23.0.1 AMS 1.12.1 E**.
+
 ## Engines
 
 Includes SNES, PlayStation, NES/Famicom, Genesis/Mega Drive, Game Boy/Color and GBA components. Missing compatible engines are downloaded over HTTPS, verified and kept on SD. Some systems need user-provided BIOS files. The catalog supports future compatible engines; it does not make every RomM platform playable. N64 and Dreamcast integration remains pending.
