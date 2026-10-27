@@ -8,9 +8,9 @@ A native Nintendo Switch client for your RomM library, with integrated retro gam
 
 <a href="https://www.buymeacoffee.com/monsterreview"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me a Coffee" width="200"></a>
 
-## N64 four-player testing
+## N64 multiplayer testing
 
-[Rommulation 1.4.0 N64 package](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.0/Rommulation-1.4.0.zip) adds an integrated N64 engine and four native controller ports. This is a hardware-validation release; the established download below remains 1.3.0. Install the full 1.4.0 ZIP and choose a four-player controller profile before launching an N64 multiplayer game. Four full controllers are recommended. No RetroArch installation is needed. N64 graphics, sound, speed and four-player gameplay still need physical Switch testing. See N64-BUILD.md in the package.
+[Rommulation 1.4.1 N64 package](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-1.4.1.zip) adds an integrated N64 engine and four native controller ports. This is a hardware-validation release; the established download below remains 1.3.0. Install the full 1.4.1 ZIP and choose a four-player controller profile before launching an N64 multiplayer game. Four full controllers are recommended. No RetroArch installation is needed. The user confirmed N64 games launch. The new external-controller / attached-Joy-Con assignment and four-player play still need physical Switch testing. See N64-BUILD.md in the package.
 
 ## Download
 
@@ -34,10 +34,12 @@ Single-player gameplay and the 1.2.0 two-player build were user-tested and verif
 
 ## Engines
 
-Includes SNES, PlayStation, NES/Famicom, Genesis/Mega Drive, Game Boy/Color and GBA components. Missing compatible engines are downloaded over HTTPS, verified and kept on SD. Some systems need user-provided BIOS files. The catalog supports future compatible engines; it does not make every RomM platform playable. The 1.4.0 test package adds N64; Dreamcast integration remains pending.
+Includes SNES, PlayStation, NES/Famicom, Genesis/Mega Drive, Game Boy/Color and GBA components. Missing compatible engines are downloaded over HTTPS, verified and kept on SD. Some systems need user-provided BIOS files. The catalog supports future compatible engines; it does not make every RomM platform playable. The 1.4.1 test package adds N64; Dreamcast integration remains pending.
 
 Previous SNES/PlayStation gameplay was confirmed on Switch. Native builds, executable/package checks and public download hashes pass. Additional systems and the automatic installer still require Switch hardware testing.
 
 ## Source and licenses
 
 [Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.3.0/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
+
+For an external controller plus Joy-Con attached to the Switch, choose **Two players / external P1 + attached Joy-Con P2** in Plus > Controllers. The external controller is P1 and both attached Joy-Con together are P2. Then choose two-player mode inside the game.
