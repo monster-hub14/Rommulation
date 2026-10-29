@@ -24,7 +24,7 @@ Fixes a null-pointer crash when Genesis Plus GX clears its disc interface for a 
 
 ## Joy-Con assignment fix in 1.4.2
 
-[Download the 1.4.2 Joy-Con fix for testing](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.2/Rommulation-1.4.2.zip).
+[Included in the current 1.4.3 release](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-1.4.3.zip).
 
 Fixes a saved mixed-controller setup leaving NES player one empty on a regular Switch. With only attached Joy-Con, they become P1; detached controllers are assigned to the available player slots even if a lower Switch controller slot is empty. Delayed controller detection and attaching/detaching Joy-Con are handled without merging players. The verified N64 external-P1 / attached-P2 layout is retained when both devices are present. Driver tests pass; this new fix still needs a physical regular-Switch NES retest. This controller fix is included in 1.4.3.
 
