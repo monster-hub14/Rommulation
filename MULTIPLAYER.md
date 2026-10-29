@@ -1,8 +1,10 @@
 # Local multiplayer setup
 
+**Verified October 29, 2026:** Genesis/Mega Drive gameplay and two-player mode work on Switch in Rommulation 1.4.3.
+
 **Verified October 29, 2026:** N64 multiplayer now works properly in Rommulation 1.4.1, including an external controller as P1 and both attached Joy-Con as P2.
 
-1. Install the complete Rommulation 1.4.2 ZIP so the launcher and all engines are updated. Existing login, games and saves remain in their original folders.
+1. Install the complete Rommulation 1.4.3 ZIP so the launcher and all engines are updated. Existing login, games and saves remain in their original folders.
 2. In the library, press Plus to open Controllers. Choose **Two players / one sideways Joy-Con each**. Detach the Joy-Con and hold each horizontally.
 3. In the Switch pairing screen, press **SL + SR** on the first Joy-Con for player one, then on the second for player two. Finish the pairing screen. You can instead choose **Two players / full controllers** for two Pro Controllers or two Joy-Con pairs.
 4. Download/open the game and select its own two-player mode. The app cannot turn a single-player game into a two-player game.
