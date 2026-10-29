@@ -1,3 +1,14 @@
+# 1.4.3 - Sega cartridge startup crash
+
+- Fix a null-pointer dereference when Genesis Plus GX clears the disc interface after loading a Genesis/Mega Drive cartridge.
+- Handle empty basic and extended disc callbacks while preserving valid disc registrations for PlayStation and Sega CD.
+- Preserve a fixed-size Genesis SRAM buffer when saving, including erased/all-0xff saves; accept valid bounded trimmed SRAM files on reload.
+- Log core initialization, ROM load, save load and first-frame progress.
+- Reproduce the original crash using the actual vendored Sega core and an original generated cartridge; the fixed host passes 120 video frames, audio, two input ports, CPU RAM writes, state restore and save reload checks.
+- Retain the NES Joy-Con assignment recovery and the verified N64 setup/rendering path.
+
+Genesis hardware retest is pending. The generated cartridge is not a commercial game; Sega CD and every individual Sega title are not validated by this test.
+
 # 1.4.2 - Joy-Con assignment recovery
 
 - Fix NES P1 receiving no input with attached Joy-Con after saving an external-P1 / attached-P2 profile.
