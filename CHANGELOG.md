@@ -7,7 +7,7 @@
 - Reproduce the original crash using the actual vendored Sega core and an original generated cartridge; the fixed host passes 120 video frames, audio, two input ports, CPU RAM writes, state restore and save reload checks.
 - Retain the NES Joy-Con assignment recovery and the verified N64 setup/rendering path.
 
-Genesis hardware retest is pending. The generated cartridge is not a commercial game; Sega CD and every individual Sega title are not validated by this test.
+Verified October 29, 2026: the user confirmed Genesis/Mega Drive ROMs now work on Switch, including two-player mode. 1.4.3 is the current stable release. The generated cartridge is not a commercial game; Sega CD and every individual Sega title are not validated by this test.
 
 # 1.4.2 - Joy-Con assignment recovery
 
@@ -28,7 +28,7 @@ The old attached-only failure is reproduced by the driver regression. New attach
 - Preserve the user-confirmed working 1.4.0 GLES renderer.
 - Open gameplay.log before graphics initialization and report the failing step/error if initialization fails.
 
-Verified October 29, 2026: the user confirmed N64 multiplayer now works properly in 1.4.1, including the external-controller P1 / attached-Joy-Con P2 assignment fix. Version 1.4.1 is the current stable release.
+Verified October 29, 2026: the user confirmed N64 multiplayer now works properly in 1.4.1, including the external-controller P1 / attached-Joy-Con P2 assignment fix. Version 1.4.1 was promoted to stable after that verification; the current stable release is 1.4.3.
 
 # 1.4.0 - Nintendo 64 hardware-validation release
 
