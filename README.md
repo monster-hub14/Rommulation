@@ -8,19 +8,20 @@ A native Nintendo Switch client for your RomM library, with integrated retro gam
 
 <a href="https://www.buymeacoffee.com/monsterreview"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me a Coffee" width="200"></a>
 
-## N64 multiplayer testing
-
-[Rommulation 1.4.1 N64 package](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-1.4.1.zip) adds an integrated N64 engine and four native controller ports. This is a hardware-validation release; the established download below remains 1.3.0. Install the full 1.4.1 ZIP and choose a four-player controller profile before launching an N64 multiplayer game. Four full controllers are recommended. No RetroArch installation is needed. The user confirmed N64 games launch. The new external-controller / attached-Joy-Con assignment and four-player play still need physical Switch testing. See N64-BUILD.md in the package.
-
 ## Download
 
-[Download Rommulation 1.3.0](https://github.com/monster-hub14/Rommulation/releases/download/v1.3.0/Rommulation-1.3.0.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
+[Download Rommulation 1.4.1](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-1.3.0.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
 
 Extract the complete ZIP to your SD root and merge/replace its files. Keep the existing app folder to preserve saved login, downloads and saves. Internal paths remain compatible with earlier Rom NX versions.
 
 Connect to your own RomM server using device pairing or username/password fallback. Saved sign-in reconnects automatically. Browse consoles, press X to download, then A to play. Right stick click opens the gameplay menu.
 
 ## Local multiplayer
+
+For an external controller plus Joy-Con attached to the Switch, choose **Two players / external P1 + attached Joy-Con P2** in Plus > Controllers. The external controller is P1 and both attached Joy-Con together are P2. Then choose two-player mode inside the game.
+
+
+**Verified on Switch:** the user confirmed N64 multiplayer now works properly in 1.4.1, including the external-controller P1 / attached-Joy-Con P2 fix (October 29, 2026).
 
 Press **Plus** in the library, choose **Two players / one sideways Joy-Con each**, detach the Joy-Con and press **SL + SR** on each in the pairing screen. Select two-player mode inside the game. Two full controllers are also supported. During games, use right-stick click on a full controller or **SL + SR + Plus/Minus** on a single Joy-Con to open the pause menu, then choose **Controllers / player setup**.
 
@@ -30,16 +31,16 @@ Two-player play was confirmed working by the user. Four-player PlayStation input
 
 ## Verified working setup
 
+N64 multiplayer and the attached-Joy-Con player-two fix were user-tested and confirmed working in Rommulation 1.4.1 on October 29, 2026. This confirmation covers the reported controller arrangement; it does not claim every N64 game, peripheral or four-controller combination was tested.
+
 Single-player gameplay and the 1.2.0 two-player build were user-tested and verified working on **Atmosphere 23.0.1 AMS 1.12.1 E**.
 
 ## Engines
 
-Includes SNES, PlayStation, NES/Famicom, Genesis/Mega Drive, Game Boy/Color and GBA components. Missing compatible engines are downloaded over HTTPS, verified and kept on SD. Some systems need user-provided BIOS files. The catalog supports future compatible engines; it does not make every RomM platform playable. The 1.4.1 test package adds N64; Dreamcast integration remains pending.
+Includes SNES, PlayStation, Nintendo 64, NES/Famicom, Genesis/Mega Drive, Game Boy/Color and GBA components. Missing compatible engines are downloaded over HTTPS, verified and kept on SD. Some systems need user-provided BIOS files. The catalog supports future compatible engines; it does not make every RomM platform playable. Nintendo 64 is included in 1.4.1; Dreamcast integration remains pending.
 
-Previous SNES/PlayStation gameplay was confirmed on Switch. Native builds, executable/package checks and public download hashes pass. Additional systems and the automatic installer still require Switch hardware testing.
+SNES/PlayStation gameplay and N64 multiplayer were confirmed on Switch. Native builds, executable/package checks and public download hashes pass. Additional systems and the automatic installer still require Switch hardware testing.
 
 ## Source and licenses
 
-[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.3.0/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
-
-For an external controller plus Joy-Con attached to the Switch, choose **Two players / external P1 + attached Joy-Con P2** in Plus > Controllers. The external controller is P1 and both attached Joy-Con together are P2. Then choose two-player mode inside the game.
+[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
