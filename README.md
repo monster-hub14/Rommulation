@@ -16,6 +16,12 @@ Extract the complete ZIP to your SD root and merge/replace its files. Keep the e
 
 Connect to your own RomM server using device pairing or username/password fallback. Saved sign-in reconnects automatically. Browse consoles, press X to download, then A to play. Right stick click opens the gameplay menu.
 
+## Genesis / Mega Drive startup fix in 1.4.3
+
+[Download the 1.4.3 Sega launch fix for testing](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-1.4.3.zip).
+
+Fixes a null-pointer crash when Genesis Plus GX clears its disc interface for a cartridge game. Also preserves complete battery saves, accepts valid trimmed SRAM files, and logs core initialization/load/first-frame progress. The actual Sega core reproduces the old crash with an original generated test cartridge; the fixed host runs 120 frames with video/audio, two input ports, state restore and battery-save reload checks. A physical Switch Genesis retest is still required. This build retains the NES Joy-Con fixes and the verified N64 controller layout.
+
 ## Joy-Con assignment fix in 1.4.2
 
 [Download the 1.4.2 Joy-Con fix for testing](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.2/Rommulation-1.4.2.zip).
