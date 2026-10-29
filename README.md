@@ -10,7 +10,7 @@ A native Nintendo Switch client for your RomM library, with integrated retro gam
 
 ## Download
 
-[Download Rommulation 1.4.1](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-1.3.0.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
+[Download Rommulation 1.4.1](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-1.4.1.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
 
 Extract the complete ZIP to your SD root and merge/replace its files. Keep the existing app folder to preserve saved login, downloads and saves. Internal paths remain compatible with earlier Rom NX versions.
 
