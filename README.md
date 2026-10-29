@@ -10,7 +10,7 @@ A native Nintendo Switch client for your RomM library, with integrated retro gam
 
 ## Download
 
-[Download Rommulation 1.4.1](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-1.4.1.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
+[Download Rommulation 1.4.3](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-1.4.3.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
 
 Extract the complete ZIP to your SD root and merge/replace its files. Keep the existing app folder to preserve saved login, downloads and saves. Internal paths remain compatible with earlier Rom NX versions.
 
@@ -18,15 +18,15 @@ Connect to your own RomM server using device pairing or username/password fallba
 
 ## Genesis / Mega Drive startup fix in 1.4.3
 
-[Download the 1.4.3 Sega launch fix for testing](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-1.4.3.zip).
+[Download Rommulation 1.4.3](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-1.4.3.zip).
 
-Fixes a null-pointer crash when Genesis Plus GX clears its disc interface for a cartridge game. Also preserves complete battery saves, accepts valid trimmed SRAM files, and logs core initialization/load/first-frame progress. The actual Sega core reproduces the old crash with an original generated test cartridge; the fixed host runs 120 frames with video/audio, two input ports, state restore and battery-save reload checks. A physical Switch Genesis retest is still required. This build retains the NES Joy-Con fixes and the verified N64 controller layout.
+Fixes a null-pointer crash when Genesis Plus GX clears its disc interface for a cartridge game. Also preserves complete battery saves, accepts valid trimmed SRAM files, and logs core initialization/load/first-frame progress. The actual Sega core reproduces the old crash with an original generated test cartridge; the fixed host runs 120 frames with video/audio, two input ports, state restore and battery-save reload checks. **Verified on Switch, October 29, 2026:** the user confirmed Genesis/Mega Drive games now launch and play, with two-player mode working as well. Rommulation 1.4.3 is the current stable release. This build retains the NES Joy-Con fixes and the verified N64 controller layout.
 
 ## Joy-Con assignment fix in 1.4.2
 
 [Download the 1.4.2 Joy-Con fix for testing](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.2/Rommulation-1.4.2.zip).
 
-Fixes a saved mixed-controller setup leaving NES player one empty on a regular Switch. With only attached Joy-Con, they become P1; detached controllers are assigned to the available player slots even if a lower Switch controller slot is empty. Delayed controller detection and attaching/detaching Joy-Con are handled without merging players. The verified N64 external-P1 / attached-P2 layout is retained when both devices are present. Driver tests pass; this new fix still needs a physical regular-Switch NES retest. Existing 1.4.1 remains available as the user-verified release.
+Fixes a saved mixed-controller setup leaving NES player one empty on a regular Switch. With only attached Joy-Con, they become P1; detached controllers are assigned to the available player slots even if a lower Switch controller slot is empty. Delayed controller detection and attaching/detaching Joy-Con are handled without merging players. The verified N64 external-P1 / attached-P2 layout is retained when both devices are present. Driver tests pass; this new fix still needs a physical regular-Switch NES retest. This controller fix is included in 1.4.3.
 
 ## Local multiplayer
 
@@ -43,6 +43,8 @@ Two-player play was confirmed working by the user. Four-player PlayStation input
 
 ## Verified working setup
 
+Genesis/Mega Drive gameplay and two-player mode were user-tested and confirmed working in 1.4.3 on October 29, 2026. This confirms the reported gameplay and controller results; Sega CD, every game, and every peripheral are not covered by that report.
+
 N64 multiplayer and the attached-Joy-Con player-two fix were user-tested and confirmed working in Rommulation 1.4.1 on October 29, 2026. This confirmation covers the reported controller arrangement; it does not claim every N64 game, peripheral or four-controller combination was tested.
 
 Single-player gameplay and the 1.2.0 two-player build were user-tested and verified working on **Atmosphere 23.0.1 AMS 1.12.1 E**.
@@ -51,9 +53,9 @@ Single-player gameplay and the 1.2.0 two-player build were user-tested and verif
 
 Includes SNES, PlayStation, Nintendo 64, NES/Famicom, Genesis/Mega Drive, Game Boy/Color and GBA components. Missing compatible engines are downloaded over HTTPS, verified and kept on SD. Some systems need user-provided BIOS files. The catalog supports future compatible engines; it does not make every RomM platform playable. Nintendo 64 is included in 1.4.1; Dreamcast integration remains pending.
 
-SNES/PlayStation gameplay and N64 multiplayer were confirmed on Switch. Native builds, executable/package checks and public download hashes pass. Additional systems and the automatic installer still require Switch hardware testing.
+SNES/PlayStation gameplay, N64 multiplayer, and Genesis/Mega Drive gameplay with two-player mode were confirmed on Switch. Native builds, executable/package checks and public download hashes pass. Additional systems and the automatic installer still require Switch hardware testing.
 
 ## Source and licenses
 
-[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
+[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
 
