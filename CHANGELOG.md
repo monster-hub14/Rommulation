@@ -1,3 +1,14 @@
+# 1.4.2 - Joy-Con assignment recovery
+
+- Fix NES P1 receiving no input with attached Joy-Con after saving an external-P1 / attached-P2 profile.
+- Resolve saved preferences against actually connected HID sources, including detached Joy-Con with empty lower controller slots.
+- Retry assignment when HID arrives after startup; handle attached/detached transitions with held-input suppression.
+- Keep surviving players in place on disconnect and avoid duplicate/merged inputs.
+- Preserve the user-verified N64 mixed-controller layout and the working GLES renderer.
+- Log player/device assignment changes for troubleshooting.
+
+The old attached-only failure is reproduced by the driver regression. New attached, detached, late-HID, transition and Lite-style cases pass, alongside the N64 mixed and four-controller regressions. Physical regular-Switch NES testing is pending.
+
 # 1.4.1 - N64 second-controller assignment
 
 - Keep two N64 ports enabled in the default profile, as in the PlayStation engine; four-player profiles enable four ports.
