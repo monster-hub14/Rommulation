@@ -16,6 +16,12 @@ Extract the complete ZIP to your SD root and merge/replace its files. Keep the e
 
 Connect to your own RomM server using device pairing or username/password fallback. Saved sign-in reconnects automatically. Browse consoles, press X to download, then A to play. Right stick click opens the gameplay menu.
 
+## Joy-Con assignment fix in 1.4.2
+
+[Download the 1.4.2 Joy-Con fix for testing](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.2/Rommulation-1.4.2.zip).
+
+Fixes a saved mixed-controller setup leaving NES player one empty on a regular Switch. With only attached Joy-Con, they become P1; detached controllers are assigned to the available player slots even if a lower Switch controller slot is empty. Delayed controller detection and attaching/detaching Joy-Con are handled without merging players. The verified N64 external-P1 / attached-P2 layout is retained when both devices are present. Driver tests pass; this new fix still needs a physical regular-Switch NES retest. Existing 1.4.1 remains available as the user-verified release.
+
 ## Local multiplayer
 
 For an external controller plus Joy-Con attached to the Switch, choose **Two players / external P1 + attached Joy-Con P2** in Plus > Controllers. The external controller is P1 and both attached Joy-Con together are P2. Then choose two-player mode inside the game.
@@ -44,3 +50,4 @@ SNES/PlayStation gameplay and N64 multiplayer were confirmed on Switch. Native b
 ## Source and licenses
 
 [Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.1/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
+
