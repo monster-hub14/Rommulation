@@ -2,7 +2,7 @@
 
 **Verified October 29, 2026:** N64 multiplayer now works properly in Rommulation 1.4.1, including an external controller as P1 and both attached Joy-Con as P2.
 
-1. Install the complete Rommulation 1.4.1 ZIP so the launcher and all engines are updated. Existing login, games and saves remain in their original folders.
+1. Install the complete Rommulation 1.4.2 ZIP so the launcher and all engines are updated. Existing login, games and saves remain in their original folders.
 2. In the library, press Plus to open Controllers. Choose **Two players / one sideways Joy-Con each**. Detach the Joy-Con and hold each horizontally.
 3. In the Switch pairing screen, press **SL + SR** on the first Joy-Con for player one, then on the second for player two. Finish the pairing screen. You can instead choose **Two players / full controllers** for two Pro Controllers or two Joy-Con pairs.
 4. Download/open the game and select its own two-player mode. The app cannot turn a single-player game into a two-player game.
@@ -36,3 +36,9 @@ Game Boy/Color and GBA engines currently emulate one handheld. Their link-cable/
 The user confirmed the 1.2.0 two-player build works on Switch. Host tests now exercise four isolated input slots, independent button releases, both sideways layouts, pause suppression, disconnects, analog routing and two-player limits. Tests compile the actual vendored PCSX-ReARMed serial pad implementation and frontend adapters, checking four Multitap slots on Port 1, no ghost fifth controller, Port 2 mapping and two-player fallback. The real SNES core retains its two-port smoke test. These checks do not execute Crash Bash or replace physical four-controller Switch testing. Native executable/package checks cover the launcher and all seven engines. N64 tests execute the actual upstream input conversion for four players, analog control stick and C-stick. The user has confirmed N64 gameplay and the mixed-controller multiplayer fix on Switch. Wider performance and per-game coverage remain unverified.
 
 For an external controller plus Joy-Con attached to the Switch, choose **Two players / external P1 + attached Joy-Con P2** in Plus > Controllers. The external controller is P1 and both attached Joy-Con together are P2. Then choose two-player mode inside the game.
+
+## Regular Switch NES controls in 1.4.2
+
+Saved controller preferences are now resolved against connected devices. An attached pair works as P1 when no external controller is connected, even after saving the mixed-controller layout. Detached Joy-Con use available Switch controller slots without requiring an unused lower slot to be filled. Use Plus > Controllers > Two players / one sideways Joy-Con each for detached two-player play, pair with SL + SR, then choose the game’s multiplayer mode. Hold the Joy-Con horizontally.
+
+For attached Joy-Con as P2 with an external P1, keep the mixed profile; it is retained when both devices are connected. Disconnects keep the other player in place. Changing layouts pauses and clears held inputs before resuming. Switch Lite integrated controls remain supported. Changes are covered by simulated driver tests; a physical regular-Switch NES retest is pending. Gameplay logs report player-to-device assignments when they change.
