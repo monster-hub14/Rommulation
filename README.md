@@ -10,11 +10,19 @@ A native Nintendo Switch client for your RomM library, with integrated retro gam
 
 ## Download
 
-[Download Rommulation 1.5.0](https://github.com/monster-hub14/Rommulation/releases/download/v1.5.0/Rommulation-1.5.0.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
+[Download Rommulation 1.5.1](https://github.com/monster-hub14/Rommulation/releases/download/v1.5.1/Rommulation-1.5.1.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
 
 Extract the complete ZIP to your SD root and merge/replace its files. Keep the existing app folder to preserve saved login, downloads and saves. Internal paths remain compatible with earlier Rom NX versions.
 
 Connect to your own RomM server using device pairing or username/password fallback. Saved sign-in reconnects automatically. Browse consoles, press X to download, then A to play. Right stick click opens the gameplay menu.
+
+## New in 1.5.1
+
+- Hyper-green 8-bit Rommulation logo with CRT/controller/console artwork and **By Monster Review**, shown at startup and in the header. The logo is embedded in the app update payload; the hbmenu icon is unchanged.
+- Hides accidental server folders such as **config**, **postgres/PostgreSQL**, Resource, caches and database directories, plus **PS4 / PlayStation 4** entries, from the console list. Real platforms, custom names and empty real consoles remain visible; this does not restrict browsing to bundled engines. Filtering changes only the app display, not server files.
+- **Already on 1.5.0?** Leave Automatic updates ON, close and reopen Rommulation, and stay at the console menu. It should download 1.5.1, verify it and restart after the countdown. Check for the green logo and version **1.5.1**. Physical Rommulation update/relaunch testing is pending.
+
+**Manual installation: download only `Rommulation-1.5.1.zip`.** It includes everything. The separate `.nro` files, `update.txt` and engine catalog are components used by the app's automatic downloader; users do not need to install them individually.
 
 ## Optional automatic app updates (1.5.0)
 
@@ -24,7 +32,7 @@ You can still press **A** in App updates to check manually, then **A** again to 
 
 The updater uses stable GitHub releases, HTTPS, SHA-256 checks and two app slots for recovery. Gameplay engines refresh from the app version's verified catalog when needed; installed engines remain usable offline. The bootstrap/hbmenu icon needs the complete ZIP for future changes. See [UPDATES.md](UPDATES.md) for installation, recovery and manual-update details. Rommulation-specific physical update/relaunch testing is still pending.
 
-The header now reads **Rommulation — By Monster Review**, with the author credit in smaller text.
+The startup/header logo includes **By Monster Review** beneath the pixel lettering.
 
 ## Genesis / Mega Drive startup fix in 1.4.3
 
@@ -67,5 +75,5 @@ SNES/PlayStation gameplay, N64 multiplayer, and Genesis/Mega Drive gameplay with
 
 ## Source and licenses
 
-[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.5.0/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
+[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.5.1/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
 
