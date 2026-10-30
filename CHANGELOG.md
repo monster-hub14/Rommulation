@@ -1,3 +1,9 @@
+# 1.5.2 — October 30, 2026
+
+- Replace mint UI accents with hyper green (#39FF14): left rail, console/game selection borders, sign-in actions, library counts, download progress, update screen/footer, controller setup and gameplay pause/start screens.
+- Change selected-row fills to a matching dark green. Neutral text, cover art and game rendering remain unchanged.
+- Retain the 1.5.1 console-folder/PS4 filtering and embedded pixel logo.
+
 # 1.5.1 — October 30, 2026
 
 - Embedded hyper-green pixel logo at startup and in the library/sign-in header, including By Monster Review. The logo ships through app updates; hbmenu icon stays unchanged.
