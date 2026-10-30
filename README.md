@@ -10,17 +10,27 @@ A native Nintendo Switch client for your RomM library, with integrated retro gam
 
 ## Download
 
-[Download Rommulation 1.4.3](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-1.4.3.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
+[Download Rommulation 1.5.0](https://github.com/monster-hub14/Rommulation/releases/download/v1.5.0/Rommulation-1.5.0.zip) | [Releases](https://github.com/monster-hub14/Rommulation/releases)
 
 Extract the complete ZIP to your SD root and merge/replace its files. Keep the existing app folder to preserve saved login, downloads and saves. Internal paths remain compatible with earlier Rom NX versions.
 
 Connect to your own RomM server using device pairing or username/password fallback. Saved sign-in reconnects automatically. Browse consoles, press X to download, then A to play. Right stick click opens the gameplay menu.
 
+## Optional automatic app updates (1.5.0)
+
+Automatic updates are **ON by default**. Install the complete 1.5.0 ZIP once to add the updater. From the sign-in or library screen, press **ZL** to open **App updates**, then **X** until **Automatic updates: OFF** appears. Press **B** to return. Your choice is saved after restarting; switching it off cancels an active update transfer and prevents automatic checks/installations.
+
+You can still press **A** in App updates to check manually, then **A** again to install a verified download. Manual checking leaves automatic updates off. With automatic updates enabled, a verified update waits for the console menu and a five-second countdown; **B** postpones it. Gameplay is never interrupted. **Y** restores the previous verified app and disables automatic updates. Login, downloads and saves are retained.
+
+The updater uses stable GitHub releases, HTTPS, SHA-256 checks and two app slots for recovery. Gameplay engines refresh from the app version's verified catalog when needed; installed engines remain usable offline. The bootstrap/hbmenu icon needs the complete ZIP for future changes. See [UPDATES.md](UPDATES.md) for installation, recovery and manual-update details. Rommulation-specific physical update/relaunch testing is still pending.
+
+The header now reads **Rommulation — By Monster Review**, with the author credit in smaller text.
+
 ## Genesis / Mega Drive startup fix in 1.4.3
 
 [Download Rommulation 1.4.3](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-1.4.3.zip).
 
-Fixes a null-pointer crash when Genesis Plus GX clears its disc interface for a cartridge game. Also preserves complete battery saves, accepts valid trimmed SRAM files, and logs core initialization/load/first-frame progress. The actual Sega core reproduces the old crash with an original generated test cartridge; the fixed host runs 120 frames with video/audio, two input ports, state restore and battery-save reload checks. **Verified on Switch, October 29, 2026:** the user confirmed Genesis/Mega Drive games now launch and play, with two-player mode working as well. Rommulation 1.4.3 is the current stable release. This build retains the NES Joy-Con fixes and the verified N64 controller layout.
+Fixes a null-pointer crash when Genesis Plus GX clears its disc interface for a cartridge game. Also preserves complete battery saves, accepts valid trimmed SRAM files, and logs core initialization/load/first-frame progress. The actual Sega core reproduces the old crash with an original generated test cartridge; the fixed host runs 120 frames with video/audio, two input ports, state restore and battery-save reload checks. **Verified on Switch, October 29, 2026:** the user confirmed Genesis/Mega Drive games now launch and play, with two-player mode working as well. The fix is retained in 1.5.0. This build retains the NES Joy-Con fixes and the verified N64 controller layout.
 
 ## Joy-Con assignment fix in 1.4.2
 
@@ -57,5 +67,5 @@ SNES/PlayStation gameplay, N64 multiplayer, and Genesis/Mega Drive gameplay with
 
 ## Source and licenses
 
-[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.4.3/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
+[Rommulation-Source.zip](https://github.com/monster-hub14/Rommulation/releases/download/v1.5.0/Rommulation-Source.zip) contains corresponding source, build scripts and notices. Original app code is MIT licensed; emulator components retain their own licenses, including applicable noncommercial terms. No commercial games, proprietary BIOS, or account credentials are distributed. This is an independent community client.
 
