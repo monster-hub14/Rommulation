@@ -1,3 +1,11 @@
+# 1.5.1 — October 30, 2026
+
+- Embedded hyper-green pixel logo at startup and in the library/sign-in header, including By Monster Review. The logo ships through app updates; hbmenu icon stays unchanged.
+- Filter accidental server directories (config, postgres/PostgreSQL, Resource, cache/database folders) and PlayStation 4 entries from platform responses using slug, filesystem slug and name fields.
+- Preserve genuine platforms outside bundled engines, custom names and empty real platforms. No server files are changed.
+- Regression fixtures cover filtering and retained platforms; native artwork decoding/rendering and updater recovery tests pass.
+- Publish as a stable update so 1.5.0 can test Wi-Fi download/relaunch. Physical Rommulation update/relaunch still needs user verification.
+
 # 1.5.0 — October 30, 2026
 
 - Optional automatic app updates from stable GitHub releases, enabled by default.
