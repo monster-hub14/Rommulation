@@ -1,3 +1,13 @@
+# 1.5.0 — October 30, 2026
+
+- Optional automatic app updates from stable GitHub releases, enabled by default.
+- ZL opens App updates before or after sign-in; X saves ON/OFF, A checks/installs manually, B postpones, Y restores the previous verified app.
+- HTTPS, SHA-256, app/version checks, inactive-slot downloads, idle-only five-second restart and failed-start recovery.
+- Changed gameplay engines refresh on demand using the release catalog; existing engines remain usable offline.
+- Smaller "By Monster Review" credit beside Rommulation in the header.
+- Existing credentials, ROM downloads, saves, controller mappings and prior gameplay fixes retained.
+- Desktop updater fault/recovery tests and native validation are automated; physical Rommulation update/relaunch still needs testing.
+
 # 1.4.3 - Sega cartridge startup crash
 
 - Fix a null-pointer dereference when Genesis Plus GX clears the disc interface after loading a Genesis/Mega Drive cartridge.
@@ -294,4 +304,5 @@ Direct tests of the app's shared C data parser passed with six consoles and 66 d
 
 
 Native build and NRO structural checks passed. Seventeen mock-fixture checks passed. New authentication flow has not yet been exercised on the Switch.
+
 
